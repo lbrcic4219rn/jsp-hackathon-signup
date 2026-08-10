@@ -48,7 +48,7 @@ The system property wins if both are set. The directory is created on first writ
 
 ## Building and running
 
-Maven (with the committed wrapper) handles the build — nothing needs to be installed beyond a JDK 21.
+Maven (with the committed wrapper) handles the build. Nothing needs to be installed beyond a JDK 21.
 
 ```bash
 ./mvnw clean package
