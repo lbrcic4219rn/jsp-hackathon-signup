@@ -1,15 +1,12 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.jsp">Raf hakaton</a>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#">Pocetna</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#takmicenje">O takmicenju</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#nagrade">Nagrade</a></li>
-                </ul>
-            </div>
+            <a class="navbar-brand" href="${pageContext.request.contextPath}/index.jsp">RAF Hackathon</a>
+            <ul class="navbar-nav flex-row gap-3">
+                <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/index.jsp#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/index.jsp#prizes">Prizes</a></li>
+            </ul>
         </div>
-
     </nav>
 </header>
